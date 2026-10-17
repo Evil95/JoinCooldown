@@ -1,9 +1,0 @@
-# Aktiviert oder deaktiviert den Join-Cooldown (true / false)
-Cooldown Enabled: true
-
-# Cooldown-Zeit in Sekunden
-Cooldown MS: 5
-
-# Spieler auf dieser Liste ignorieren den Cooldown
-Whitelist:
-  - BeispielSpieler
