@@ -1,0 +1,19 @@
+name: JoinCooldown
+version: 1.1
+main: com.chaoticcreeper89.joincooldown.JoinCooldownPlugin
+api-version: 1.20
+
+commands:
+  joincooldown:
+    description: Schaltet den Join-Cooldown an oder aus.
+    aliases: [jc]
+    permission: joincooldown.admin
+    permission-message: §cDu hast keine Berechtigung für diesen Befehl.
+
+permissions:
+  joincooldown.admin:
+    description: Erlaubt das Steuern des Plugins per Befehl.
+    default: op
+  joincooldown.bypass:
+    description: Umgeht den Join-Cooldown beim Betreten.
+    default: false
